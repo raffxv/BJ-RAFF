@@ -1,0 +1,36 @@
+{
+    "app_name": "bj-raffxv",
+    "description": "Black Jack bot Stake.com",
+    "domain": "0xRAFF",
+    "main": "index.html",
+    "name": "bj-raff",
+    "node-main": "app.js",
+    "version": "v.1",
+    "webexe_settings": {
+        "blacklist": "",
+        "custom_script": "",
+        "download_dir": "",
+        "export_dir": "output",
+        "force_download": false,
+        "nw_compression_level": 0,
+        "output_pattern": "",
+        "sdk_build": false,
+        "uncompressed_folder": false,
+        "whitelist": ""
+    },
+    "webkit": {},
+    "window": {
+        "as_desktop": false,
+        "exe_icon": "blackjack.png",
+        "frame": true,
+        "id": "bj-raff",
+        "mac_icon": "blackjack.png",
+        "resizable": true,
+        "show": true,
+        "show_in_taskbar": true,
+        "title": "bj-raff",
+        "transparent": false,
+        "visible": true,
+        "visible_on_all_workspaces": false
+    }
+}

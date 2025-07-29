@@ -1,0 +1,33 @@
+{
+    "manifest_version": 3,
+    "name": "blackjack",
+    "description": "",
+    "version": "1.0.0.0",
+    "icons": {
+        "128": "blackjack.png"
+    },
+    "options_page": "",
+    "action": {
+        "default_title": "blackjack"
+    },
+    "permissions": [],
+    "host_permissions": [
+        "*://*/*"
+    ],
+    "background": {
+    },
+    "content_scripts": [{
+        "js": ["index.js", "assets/app.js"],
+        "matches": ["https://stake.bet/*", "https://stake.com/*", "https://stake.pet/*", "https://stake.kim/*", "https://stake.us/*", "https://stake.games/*", "https://stake.mba/*", "https://stake.ac/*", "https://stake.jp/*", "https://stake.bz/*", "https://stake.ceo/*", "https://stake.krd/*", "https://stake.jp/*", "https://staketr.com/*", "https://primedice.com/*"],
+		"run_at": "document_end"
+    }],
+	"web_accessible_resources": [
+    {
+      "resources": [ "assets/app.js" ],
+      "matches": [ "https://*/*" ]
+    }
+	],
+	"content_security_policy": {
+		"extension_pages": "script-src 'self'; object-src 'self';"
+	}
+}
